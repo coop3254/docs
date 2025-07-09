@@ -9,15 +9,12 @@ Create an API key and deploy your first wallet on-chain.
 
 ### Create a wallet
 <Steps>
-  <Step title="Create a walletset">
-    These are instructions or content that only pertain to the first step.
-    ```java HelloWorld.java lines icon="java"
-class HelloWorld {
-    public static void main(String[] args) {
-        System.out.println("Hello, World!");
-    }
-}
-```
+  <Step title="Create a wallet set">
+    ```javascript
+       const response = await circleDeveloperSdk.createWalletSet({
+  name: "Entity WalletSet A",
+});
+    ```
   </Step>
   <Step title="Second Step">
     These are instructions or content that only pertain to the second step.

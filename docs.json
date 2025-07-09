@@ -58,9 +58,9 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
+          "anchor": "Network Configuration",
           "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
+          "icon": "plug"
         },
         {
           "anchor": "Community",

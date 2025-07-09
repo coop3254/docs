@@ -44,6 +44,27 @@ const response = await client.createTransaction({
   </Step>
 </Steps>
 
+### Create a transaction
+<Steps>
+  <Step title="Send USDC transaction">
+```javascript
+const response = await client.createTransaction({
+  amount: ["5.00"],
+  destinationAddress: "0xa51c9c604b79a0fadbfed35dd576ca1bce71da0a",
+  tokenId: "36b6931a-873a-56a8-8a27-b706b17104ee",
+  walletId: "a635d679-4207-4e37-b12e-766afb9b3892",
+  fee: {
+    type: "level",
+    config: {
+      feeLevel: "HIGH",
+    },
+  },
+});
+```
+  </Step>
+</Steps>
+
+
 <AccordionGroup>
   <Accordion title="Clone your docs locally" icon="github">
     During the onboarding process, we created a repository on your Github with

@@ -68,9 +68,9 @@
           "icon": "droplet"
         },
         {
-          "anchor": "Blog",
+          "anchor": "Data Dashboard",
           "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
+          "icon": "chart-no-axes-combined"
         }
       ]
     }

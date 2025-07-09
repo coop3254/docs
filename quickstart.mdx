@@ -52,6 +52,25 @@ const response = await client.createTransaction({
 
 ### Deploy a contract
 
+<Steps>
+  <Step>
+```javascript
+const response = await client.createContractExecutionTransaction({
+  amount: '5.00',
+  abiFunctionSignature: 'mint(uint256)',
+  contractAddress: '0xa51c9c604b79a0fadbfed35dd576ca1bce71da0a',
+  walletId: 'a635d679-4207-4e37-b12e-766afb9b3892',
+  fee: {
+    type: 'level',
+    config: {
+      feeLevel: 'HIGH',
+    },
+  },
+})
+```
+  </Step>
+</Steps>
+
 <AccordionGroup>
   <Accordion title="Install our Github app" icon="message-bot">
     Our Github app automatically deploys your changes to your docs site, so you

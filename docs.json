@@ -22,7 +22,7 @@
             ]
           },
           {
-            "group": "Essentials",
+            "group": "Core Concepts",
             "pages": [
               "essentials/markdown",
               "essentials/code",

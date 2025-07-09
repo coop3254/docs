@@ -58,14 +58,14 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Network Configuration",
+          "anchor": "Network Information",
           "href": "https://mintlify.com/docs",
           "icon": "plug"
         },
         {
-          "anchor": "Community",
+          "anchor": "Faucet",
           "href": "https://mintlify.com/community",
-          "icon": "slack"
+          "icon": "droplet"
         },
         {
           "anchor": "Blog",
